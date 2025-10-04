@@ -23,4 +23,6 @@ describe('Login', () => {
         cy.get('[data-test="error"]').should('be.visible')
         cy.url().should('eq', 'https://www.saucedemo.com/')
     })
+
+    
 })
