@@ -1,0 +1,35 @@
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build / saída
+dist/
+build/
+
+# Cypress cache
+.cypress-cache/
+.cypress/
+
+# Relatórios de testes
+cypress/reports/
+cypress/videos/
+cypress/screenshots/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+.env.local
+.env.test
+.env.production
+
+# IDEs / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
